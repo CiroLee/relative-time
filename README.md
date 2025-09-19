@@ -1,4 +1,4 @@
-# @cirolee/relative-time
+# relative-time
 
 一个简单的库，用于将日期格式化为相对于当前时间的相对时间字符串。
 
