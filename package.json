@@ -1,6 +1,6 @@
 {
   "name": "@cirolee/relative-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "types": "index.d.ts",
   "main": "index.js",
@@ -19,6 +19,14 @@
   ],
   "license": "MIT",
   "description": "A simple library to format dates relative to the current time.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CiroLee/relative-time.git"
+  },
+  "homepage": "https://github.com/CiroLee/relative-time",
+  "bugs": {
+    "url": "https://github.com/CiroLee/relative-time/issues"
+  },
   "scripts": {
     "test": "jest --coverage"
   },
