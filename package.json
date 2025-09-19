@@ -1,0 +1,35 @@
+{
+  "name": "@cirolee/relative-time",
+  "version": "1.0.0",
+  "type": "module",
+  "types": "index.d.ts",
+  "main": "index.js",
+  "keywords": [
+    "relative time",
+    "intl",
+    "date"
+  ],
+  "author": {
+    "name": "Ciro Lee",
+    "email": "ciromail@126.com"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "license": "MIT",
+  "description": "A simple library to format dates relative to the current time.",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:coverage:open": "jest --coverage && open coverage/lcov-report/index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.1.2",
+    "jest": "^30.1.3"
+  }
+}
