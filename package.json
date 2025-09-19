@@ -20,10 +20,7 @@
   "license": "MIT",
   "description": "A simple library to format dates relative to the current time.",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "test:coverage:open": "jest --coverage && open coverage/lcov-report/index.html"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.28.4",
